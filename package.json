@@ -13,7 +13,7 @@
     "lodash": "~4.17.4",
     "qs": "~4.0.0",
     "react-native-lightbox": "lpasquini/react-native-lightbox",
-    "react-native-linear-gradient": "~2.5.3",
+    "react-native-linear-gradient": "~2.4.0",
     "react-native-transformable-image": "lpasquini/react-native-transformable-image",
     "react-native-vector-icons": "~4.3.0",
     "react-native-photo-view": "lpasquini/react-native-photo-view",
