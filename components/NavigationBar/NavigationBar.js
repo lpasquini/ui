@@ -77,10 +77,10 @@ class NavigationBar extends Component {
   renderStatusBar() {
     const { style } = this.props;
 
-    return Device.select({
-      iPhoneX: (<View style={style.statusBar} />),
-      default: null,
-    });
+    // return Device.select({
+    //   iPhoneX: (<View style={style.statusBar} />),
+    //   default: null,
+    // });
   }
 
   render() {
