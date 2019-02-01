@@ -23,7 +23,7 @@ const propTypes = {
 };
 
 const CLOSE_ICON_NAME = 'clear';
-const CLOSE_ICON_SIZE = 25;
+const CLOSE_ICON_SIZE = 35;
 
 /**
  * Renders an ImagePreview which shows an inline image preview.
@@ -54,7 +54,7 @@ class ImagePreview extends Component {
 
   render() {
     const { source, style, width, height } = this.props;
-
+    alert(style)
     if (this.state.fullScreen) {
       const closeButton = (
         <View style={style.header}>
