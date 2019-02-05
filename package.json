@@ -15,7 +15,7 @@
     "react-native-lightbox": "lpasquini/react-native-lightbox",
     "react-native-linear-gradient": "lpasquini/react-native-linear-gradient#0be670d349b65a55406548d7347dfb6e7508d0c9",
     "react-native-transformable-image": "lpasquini/react-native-transformable-image",
-    "react-native-vector-icons": "~4.3.0",
+    "react-native-vector-icons": ">=4.3.0",
     "react-native-photo-view": "lpasquini/react-native-photo-view",
     "react-native-navigation-experimental-compat": "lpasquini/react-native-navigation-experimental-compat",
     "stream": "0.0.2",
@@ -23,8 +23,8 @@
     "prop-types": "^15.5.10"
   },
   "peerDependencies": {
-    "react": "^16.0.0",
-    "react-native": ">=0.40.0"
+    "react": "16.6.1",
+    "react-native": "0.57.5"
   },
   "devDependencies": {
     "babel": "^6.3.26",
