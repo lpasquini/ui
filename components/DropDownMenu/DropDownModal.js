@@ -168,7 +168,7 @@ class DropDownModal extends Component {
   renderGradient() {
     // If the native module for Linear Gradient isn't loaded, then the gradient won't
     // be rendered inside the DropDownModal.
-    if(!NativeModules.BVLinearGradient){
+    if(!NativeModules.UIManager.BVLinearGradient){
       return null;
     }
 
