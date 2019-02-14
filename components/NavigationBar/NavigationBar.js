@@ -96,7 +96,7 @@ class NavigationBar extends Component {
     setStatusBarStyle(backgroundColor);
     // Key must be set to render new screen NavigationBar
     return (
-      <Animated.View style={{...style.container,this.props.navigationBarStyle}} key={id}>
+      <Animated.View style={{...style.container,...this.props.navigationBarStyle}} key={id}>
         {this.renderStatusBar()}
         <View style={style.componentsContainer}>
           <View style={style.leftComponent}>{leftComponent}</View>
