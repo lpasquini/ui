@@ -1451,7 +1451,7 @@ export default (variables = defaultThemeVariables) => ({
     centerComponent: {
       alignSelf: 'center',
       alignItems: 'center',
-      flex: 2,
+      flex: 4,
       marginBottom: 0,
     },
 
